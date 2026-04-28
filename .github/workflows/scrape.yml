@@ -24,7 +24,7 @@ jobs:
         run: pip install requests pandas
 
       - name: Run scraper
-        run: python tide_scraper.py
+        run: python tide_scraper_github.py
 
       - name: Commit updated CSV
         run: |
